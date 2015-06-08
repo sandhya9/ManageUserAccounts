@@ -1,0 +1,10 @@
+applications:
+- disk_quota: 1024M
+  host: accountsmanagement-am
+  name: AccountsManagement-AM
+  path: webStarterApp.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
+ services:
+  - SQLDB-Sample-02
